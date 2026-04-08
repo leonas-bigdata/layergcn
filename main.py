@@ -4,6 +4,23 @@
 """
 Main entry
 ##########################
+# HEADER = "user_id:token\titem_id:token\n"
+# def conver_to_inter(src_path : str, dest_path: str):
+#     total = 0
+#     with open(src_path, "r", encoding = "utf-8") as fin, open (dest_path, "w", encoding = "utf-8") as fout:
+#         fout.write(HEADER)
+#         for line in fin:
+#             line = line.strip()
+#             if not line:
+#                 continue
+#             tokens = line.split()
+#             user_id = tokens[0]
+#             for item_id in tokens[1:]:
+#                 fout.write(f"{user_id}\t{item_id}\n")
+#                 total += 1
+#     print(f' Written {total:, } interactions - > {dest_path}')
+
+#     return total
 """
 
 
