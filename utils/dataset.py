@@ -292,7 +292,12 @@ class RecDataset(object):
         Returns:
             int: The number of different tokens (``1`` if ``field`` is a float-like field).
         """
-        if field not in self.config['load_cols']:
+        # if field not in self.config['load_cols']:
+        #     raise ValueError('field [{}] not defined in dataset'.format(field))
+        # uni_len = len(pd.unique(self.df[field]))
+        # return uni_len
+
+        if field not in self.df.columns:
             raise ValueError('field [{}] not defined in dataset'.format(field))
         uni_len = len(pd.unique(self.df[field]))
         return uni_len
