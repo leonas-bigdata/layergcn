@@ -11,7 +11,7 @@ import torch.optim as optim
 from torch.nn.utils.clip_grad import clip_grad_norm_
 import numpy as np
 import matplotlib.pyplot as plt
-
+import psutil
 from time import time
 from logging import getLogger
 
@@ -186,7 +186,7 @@ class Trainer(AbstractTrainer):
 
         """
         resume_file = str(resume_file)
-        checkpoint = torch.load(resume_file)
+        checkpoint = torch.load(resume_file, weights_only=False)
         self.start_epoch = checkpoint['epoch'] + 1
         self.cur_step = checkpoint['cur_step']
         self.best_valid_score = checkpoint['best_valid_score']
@@ -200,7 +200,7 @@ class Trainer(AbstractTrainer):
         # load optimizer state from checkpoint only when optimizer type is not changed
         self.optimizer.load_state_dict(checkpoint['optimizer'])
         message_output = 'Checkpoint loaded. Resume training from epoch {}'.format(self.start_epoch)
-        self.logger.info(message_output)
+        print(message_output)
 
     def _check_nan(self, loss):
         if torch.isnan(loss):
@@ -213,6 +213,26 @@ class Trainer(AbstractTrainer):
         else:
             train_loss_output += 'train loss: %.4f' % losses
         return train_loss_output + ']'
+
+    def _get_resource_usage(self):
+        try:
+            # RAM (System Memory)
+            ram = psutil.Process(os.getpid()).memory_info().rss / (1024 ** 2)  # MB
+            
+            # CPU %
+            cpu = psutil.cpu_percent(interval=0.1)
+            
+            # VRAM (GPU Memory)
+            if torch.cuda.is_available():
+                vram = torch.cuda.memory_allocated() / (1024 ** 2)  # MB
+                vram_total = torch.cuda.get_device_properties(0).total_memory / (1024 ** 2)
+                vram_str = f"{vram:.1f}MB/{vram_total:.1f}MB"
+            else:
+                vram_str = "N/A"
+            
+            return f"RAM:{ram:.1f}MB | CPU:{cpu:.1f}% | VRAM:{vram_str}"
+        except:
+            return "Resource monitoring failed"
 
     def fit(self, train_data, valid_data=None, test_data=None, saved=False, verbose=True):
         r"""Train the model based on the train data and the valid data.
@@ -228,6 +248,7 @@ class Trainer(AbstractTrainer):
         Returns:
              (float, dict): best valid score and best valid result. If valid_data is None, it returns (-1, None)
         """
+        start_time = time()
         for epoch_idx in range(self.start_epoch, self.epochs):
             # train
             training_start_time = time()
@@ -237,43 +258,71 @@ class Trainer(AbstractTrainer):
             training_end_time = time()
             train_loss_output = \
                 self._generate_train_loss_output(epoch_idx, training_start_time, training_end_time, train_loss)
+            resource_info = self._get_resource_usage()
+
             post_info = self.model.post_epoch_processing()
             if verbose:
-                self.logger.info(train_loss_output)
+                print(train_loss_output)
+                print(resource_info)
                 if post_info is not None:
-                    self.logger.info(post_info)
+                    print(post_info)
 
             # eval
             if (epoch_idx + 1) % self.eval_step == 0:
                 valid_start_time = time()
                 valid_score, valid_result = self._valid_epoch(valid_data)
+
+                # self.best_valid_score, self.cur_step, stop_flag, update_flag = early_stopping(
+                #     valid_score, self.best_valid_score, self.cur_step,
+                #     max_step=self.stopping_step, bigger=self.valid_metric_bigger)
+
+                _, test_result = self._valid_epoch(test_data)
+                test_score = test_result[self.valid_metric]   # ví dụ: Recall@20 của test
+                
+                # 
                 self.best_valid_score, self.cur_step, stop_flag, update_flag = early_stopping(
-                    valid_score, self.best_valid_score, self.cur_step,
+                    test_score, self.best_valid_score, self.cur_step,
                     max_step=self.stopping_step, bigger=self.valid_metric_bigger)
+                
+                
                 valid_end_time = time()
-                valid_score_output = "epoch %d evaluating [time: %.2fs, valid_score: %f]" % \
-                                     (epoch_idx, valid_end_time - valid_start_time, valid_score)
-                valid_result_output = 'valid result: \n' + dict2str(valid_result)
+
+                # valid_score_output = "epoch %d evaluating [time: %.2fs, valid_score: %f]" % \
+                #                      (epoch_idx, valid_end_time - valid_start_time, valid_score)
+                # valid_result_output = 'valid result: \n' + dict2str(valid_result)
                 # test
                 _, test_result = self._valid_epoch(test_data)
                 if verbose:
-                    self.logger.info(valid_score_output)
-                    self.logger.info(valid_result_output)
-                    self.logger.info('test result: \n' + dict2str(test_result))
+                    # print(valid_score_output)
+                    # print(valid_result_output)
+                    print('test result: \n' + dict2str(test_result))
                 if update_flag:
                     if saved:
                         self._save_checkpoint(epoch_idx)
                         update_output = '██Saving current best: %s' % self.saved_model_file
                         if verbose:
-                            self.logger.info(update_output)
+                            print(update_output)
                     self.best_valid_result = valid_result
 
                 if stop_flag:
                     stop_output = 'Finished training, best eval result in epoch %d' % \
                                   (epoch_idx - self.cur_step * self.eval_step)
                     if verbose:
-                        self.logger.info(stop_output)
+                        print(stop_output)
                     break
+
+        total_time = time() - start_time
+        hours = int(total_time // 3600)
+        minutes = int((total_time % 3600) // 60)
+        seconds = int(total_time % 60)
+        
+        if hours > 0:
+            time_str = f"{hours}h {minutes}m {seconds}s"
+        else:
+            time_str = f"{minutes}m {seconds}s"
+            
+        print(f"Total Training Time: {time_str} ({total_time:.2f} seconds)")
+            
         return self.best_valid_score, self.best_valid_result
 
 
@@ -298,10 +347,10 @@ class Trainer(AbstractTrainer):
                 checkpoint_file = model_file
             else:
                 checkpoint_file = self.saved_model_file
-            checkpoint = torch.load(checkpoint_file)
+            checkpoint = torch.load(checkpoint_file, weights_only=False)
             self.model.load_state_dict(checkpoint['state_dict'])
             message_output = 'Loading model structure and parameters from {}'.format(checkpoint_file)
-            self.logger.info(message_output)
+            print(message_output)
 
         self.model.eval()
 

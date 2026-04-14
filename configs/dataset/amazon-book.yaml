@@ -1,13 +1,19 @@
-USER_ID_FIELD: user
-ITEM_ID_FIELD: item
-#RATING_FIELD: rating
-# TIME_FIELD: timestamp
-# Selectively Loading
-load_cols: [item, user]
+# USER_ID_FIELD: user
+# ITEM_ID_FIELD: item
+# #RATING_FIELD: rating
+# # TIME_FIELD: timestamp
+# # Selectively Loading
+# load_cols: [item, user]
 
-# Filtering
-max_user_inter_num: ~
+# # Filtering
+# max_user_inter_num: ~
+# min_user_inter_num: 5
+# max_item_inter_num: ~
+# min_item_inter_num: 5
+# field_separator: ","
+
+dataset: amazon-book                    
+field_separator: " "              
+load_cols: ['user_id:token', 'item_id:token']   
 min_user_inter_num: 5
-max_item_inter_num: ~
 min_item_inter_num: 5
-field_separator: ","

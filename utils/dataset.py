@@ -35,7 +35,7 @@ class RecDataset(object):
         # load from preprocessed path?
         if self.config['load_preprocessed'] and self._load_preprocessed_dataset():
             self.preprocessed_loaded = True
-            self.logger.info('\nData loaded from preprocessed dir: ' + self.preprocessed_dataset_path + '\n')
+            print('\nData loaded from preprocessed dir: ' + self.preprocessed_dataset_path + '\n')
             return
         # load dataframe
         self._from_scratch()
@@ -66,16 +66,45 @@ class RecDataset(object):
         self.df = self._load_df_from_file(file_path, self.config['load_cols']+[self.config['preprocessed_data_splitting']])
         return True
 
+    # def _from_scratch(self):
+    #     """Load dataset from scratch.
+    #     Initialize attributes firstly, then load data from atomic files, pre-process the dataset lastly.
+    #     """
+    #     print('Loading {} from scratch'.format(self.__class__))
+    #     # get path
+    #     file_path = os.path.join(self.dataset_path, '{}.inter'.format(self.dataset_name))
+    #     if not os.path.isfile(file_path):
+    #         raise ValueError('File {} not exist'.format(file_path))
+    #     self.df = self._load_df_from_file(file_path, self.config['load_cols'])
+
     def _from_scratch(self):
-        """Load dataset from scratch.
-        Initialize attributes firstly, then load data from atomic files, pre-process the dataset lastly.
-        """
-        self.logger.info('Loading {} from scratch'.format(self.__class__))
-        # get path
-        file_path = os.path.join(self.dataset_path, '{}.inter'.format(self.dataset_name))
-        if not os.path.isfile(file_path):
-            raise ValueError('File {} not exist'.format(file_path))
-        self.df = self._load_df_from_file(file_path, self.config['load_cols'])
+        print('Loading from scratch'.format(self.__class__))
+
+        dataset_dir = os.path.join(self.dataset_path, self.dataset_name)
+        
+        inter_file = os.path.join(dataset_dir, '{}.inter'.format(self.dataset_name))
+        train_file = os.path.join(dataset_dir, 'train.txt')
+        
+        if os.path.isfile(inter_file):
+            print('Loading standard .inter format')
+            self.df = self._load_df_from_file(inter_file, self.config['load_cols'])
+            self.is_pre_split = False
+        elif os.path.isfile(train_file):
+            print('*Loading pre-split train.txt (user-centric list format)')
+            self.df = self._load_user_list_format(train_file)
+            self.is_pre_split = True
+            
+            # Load test.txt
+            test_file = os.path.join(dataset_dir, 'test.txt')
+            if os.path.isfile(test_file):
+                self.test_df = self._load_user_list_format(test_file)
+                print(f'Loaded test.txt with {len(self.test_df):,} interactions')
+            else:
+                self.test_df = None
+                self.logger.warning('test.txt not found!')
+        else:
+            raise ValueError(f'Neither {inter_file} nor {train_file} exists.\n'
+                           f'Please put your files in: {dataset_dir}/')
 
     def _load_df_from_file(self, file_path, load_columns):
         # read header(user_id:token   item_id:token   rating:float    timestamp:float) for ml-10k
@@ -92,6 +121,34 @@ class RecDataset(object):
                 raise ValueError('File {} lost some required columns.'.format(file_path))
 
         df = pd.read_csv(file_path, sep=self.config['field_separator'], usecols=load_columns)
+        return df
+    
+    def _load_user_list_format(self, file_path):
+        """Load train.txt / test.txt format: user_id item1 item2 ...
+        Convert thành dataframe dài (user_id, item_id)"""
+        interactions = []
+        if 'field_separator' in self.config and self.config['field_separator']:
+            field_separator = self.config['field_separator']
+        else:
+            field_separator = ' '
+        
+        with open(file_path, 'r', encoding='utf-8') as f:
+            for line_num, line in enumerate(f, 1):
+                line = line.strip()
+                if not line:
+                    continue
+                parts = line.split(field_separator)
+                if len(parts) < 2:
+                    continue
+                user = parts[0]
+                for item in parts[1:]:
+                    interactions.append({self.uid_field: user, self.iid_field: item})
+        
+        if not interactions:
+            raise ValueError(f'No interactions in {file_path}')
+        
+        df = pd.DataFrame(interactions)
+        print(f'Loaded {len(df):,} interactions from {os.path.basename(file_path)}')
         return df
 
     def _data_processing(self):
@@ -134,7 +191,7 @@ class RecDataset(object):
                 dropped_inter |= df[self.uid_field].isin(ban_users)
             if self.iid_field:
                 dropped_inter |= df[self.iid_field].isin(ban_items)
-            # self.logger.info('[{}] dropped interactions'.format(len(dropped_inter)))
+            # print('[{}] dropped interactions'.format(len(dropped_inter)))
             df.drop(df.index[dropped_inter], inplace=True)
 
     def _get_illegal_ids_by_inter_num(self, df, field, max_num=None, min_num=None):
@@ -187,6 +244,63 @@ class RecDataset(object):
         Note:
             Other than the first one, each part is rounded down.
         """
+
+
+        if hasattr(self, 'is_pre_split') and self.is_pre_split:
+            uni_users = pd.unique(self.df[self.uid_field])
+            uni_items = pd.unique(self.df[self.iid_field])
+            u_id_map = {k: i for i, k in enumerate(uni_users)}
+            i_id_map = {k: i for i, k in enumerate(uni_items)}
+
+            # Train = toàn bộ train.txt
+            self.df[self.uid_field] = self.df[self.uid_field].map(u_id_map)
+            self.df[self.iid_field] = self.df[self.iid_field].map(i_id_map)
+            self.df.dropna(inplace=True)
+            self.df = self.df.astype(int)
+
+            train_ds = self.copy(self.df)
+
+            valid_ds = self.copy(self.df)
+            
+
+            
+        
+            # Test = test.txt
+            if hasattr(self, 'test_df') and self.test_df is not None:
+                test_df = self.test_df.copy()
+                test_df[self.uid_field] = test_df[self.uid_field].map(u_id_map)
+                test_df[self.iid_field] = test_df[self.iid_field].map(i_id_map)
+                test_df.dropna(inplace=True)
+                test_df = test_df.astype(int)
+                test_ds = self.copy(test_df)
+                print(f'Test interactions after remap: {len(test_ds)}')
+            else:
+                test_ds = self.copy(pd.DataFrame(columns=self.df.columns))
+
+            print(f'Final split → Train: {len(train_ds)} | Valid: {len(valid_ds)} (same as train) | Test: {len(test_ds)}')
+            return [train_ds, valid_ds, test_ds]
+
+            # return [train_ds, test_ds]
+        
+           
+            
+            # train_ds = self.copy(self.df)
+            # # valid_ds = self.copy(pd.DataFrame(columns=self.df.columns))
+            # valid_ds = self.copy(self.df)
+
+            # if hasattr(self, 'test_df') and self.test_df is not None:
+            #     test_df = self.test_df.copy()
+            #     test_df[self.uid_field] = test_df[self.uid_field].map(u_id_map)
+            #     test_df[self.iid_field] = test_df[self.iid_field].map(i_id_map)
+            #     test_df.dropna(inplace=True)
+            #     test_df = test_df.astype(int)
+            #     test_ds = self.copy(test_df)
+            #     print(f'Test set after remap: {len(test_ds)} interactions')
+            # else:
+            #     test_ds = self.copy(pd.DataFrame(columns=self.df.columns))
+            
+            # return [train_ds, valid_ds, test_ds]
+
         if self.preprocessed_loaded:
             dfs = []
             splitting_label = self.config['preprocessed_data_splitting']
@@ -210,7 +324,7 @@ class RecDataset(object):
 
         # get df training dataset unique users/items
         df_train = self.df.loc[self.df[self.ts_id] < split_timestamps[0]]
-        self.logger.info('==Splitting: 1. Reindexing and filtering out new users/items not in train dataset...')
+        print('==Splitting: 1. Reindexing and filtering out new users/items not in train dataset...')
 
         uni_users = pd.unique(df_train[self.uid_field])
         uni_items = pd.unique(df_train[self.iid_field])
@@ -225,7 +339,7 @@ class RecDataset(object):
         self.df = self.df.astype(int)
 
         # split df based on global time
-        self.logger.info('==Splitting: 2. Train/Valid/Test.')
+        print('==Splitting: 2. Train/Valid/Test.')
         dfs = []
         start = 0
         for i in split_timestamps:
@@ -235,7 +349,7 @@ class RecDataset(object):
         dfs.append(self.df.loc[start <= self.df[self.ts_id]].copy())
 
         # save to disk
-        self.logger.info('==Splitting: 3. Dumping...')
+        print('==Splitting: 3. Dumping...')
         self._save_dfs_to_disk(u_id_map, i_id_map, dfs)
         # self._drop_cols(dfs+[self.df], [self.ts_id])
 
@@ -263,7 +377,7 @@ class RecDataset(object):
             temp_df = pd.concat(dfs)
             temp_df.to_csv(os.path.join(self.preprocessed_dataset_path, self.processed_data_name),
                            sep=self.config['field_separator'], index=False)
-            self.logger.info('\nData saved to preprocessed dir: \n' + self.preprocessed_dataset_path)
+            print('\nData saved to preprocessed dir: \n' + self.preprocessed_dataset_path)
 
     # def _drop_cols(self, dfs, col_names):
     #     for _df in dfs:
@@ -292,12 +406,7 @@ class RecDataset(object):
         Returns:
             int: The number of different tokens (``1`` if ``field`` is a float-like field).
         """
-        # if field not in self.config['load_cols']:
-        #     raise ValueError('field [{}] not defined in dataset'.format(field))
-        # uni_len = len(pd.unique(self.df[field]))
-        # return uni_len
-
-        if field not in self.df.columns:
+        if field not in self.config['load_cols']:
             raise ValueError('field [{}] not defined in dataset'.format(field))
         uni_len = len(pd.unique(self.df[field]))
         return uni_len
@@ -321,22 +430,55 @@ class RecDataset(object):
         return self.__str__()
 
     def __str__(self):
+        # info = [self.dataset_name]
+        # self.inter_num = len(self.df)
+        # uni_u = pd.unique(self.df[self.uid_field])
+        # uni_i = pd.unique(self.df[self.iid_field])
+        # if self.uid_field:
+        #     self.user_num = len(uni_u)
+        #     self.avg_actions_of_users = self.inter_num/self.user_num
+        #     info.extend(['The number of users: {}'.format(self.user_num),
+        #                  'Average actions of users: {}'.format(self.avg_actions_of_users)])
+        # if self.iid_field:
+        #     self.item_num = len(uni_i)
+        #     self.avg_actions_of_items = self.inter_num/self.item_num
+        #     info.extend(['The number of items: {}'.format(self.item_num),
+        #                  'Average actions of items: {}'.format(self.avg_actions_of_items)])
+        # info.append('The number of inters: {}'.format(self.inter_num))
+        # if self.uid_field and self.iid_field:
+        #     sparsity = 1 - self.inter_num / self.user_num / self.item_num
+        #     info.append('The sparsity of the dataset: {}%'.format(sparsity * 100))
+        # return '\n'.join(info)
+
         info = [self.dataset_name]
         self.inter_num = len(self.df)
-        uni_u = pd.unique(self.df[self.uid_field])
-        uni_i = pd.unique(self.df[self.iid_field])
+
         if self.uid_field:
+            uni_u = pd.unique(self.df[self.uid_field])
             self.user_num = len(uni_u)
-            self.avg_actions_of_users = self.inter_num/self.user_num
+            if self.user_num > 0:
+                self.avg_actions_of_users = self.inter_num / self.user_num
+            else:
+                self.avg_actions_of_users = 0.0
             info.extend(['The number of users: {}'.format(self.user_num),
-                         'Average actions of users: {}'.format(self.avg_actions_of_users)])
+                         'Average actions of users: {:.2f}'.format(self.avg_actions_of_users)])
+
         if self.iid_field:
+            uni_i = pd.unique(self.df[self.iid_field])
             self.item_num = len(uni_i)
-            self.avg_actions_of_items = self.inter_num/self.item_num
+            if self.item_num > 0:
+                self.avg_actions_of_items = self.inter_num / self.item_num
+            else:
+                self.avg_actions_of_items = 0.0
             info.extend(['The number of items: {}'.format(self.item_num),
-                         'Average actions of items: {}'.format(self.avg_actions_of_items)])
+                         'Average actions of items: {:.2f}'.format(self.avg_actions_of_items)])
+
         info.append('The number of inters: {}'.format(self.inter_num))
-        if self.uid_field and self.iid_field:
+
+        if self.uid_field and self.iid_field and self.user_num > 0 and self.item_num > 0:
             sparsity = 1 - self.inter_num / self.user_num / self.item_num
-            info.append('The sparsity of the dataset: {}%'.format(sparsity * 100))
+            info.append('The sparsity of the dataset: {:.4f}%'.format(sparsity * 100))
+        else:
+            info.append('The sparsity of the dataset: N/A (empty dataset)')
+
         return '\n'.join(info)
