@@ -1,0 +1,2048 @@
+Trainable parameters: 8838272
+epoch 0 training [time: 38.94s, train loss: 749202.7310]
+RAM:1514.2MB | CPU:10.0% | VRAM:174.2MB/22563.1MB
+test result: 
+recall@20: 0.0345    ndcg@20: 0.0282    map@20: 0.0089    precision@20: 0.0161    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 1 training [time: 38.26s, train loss: 302381.6763]
+RAM:1745.6MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0374    ndcg@20: 0.0303    map@20: 0.0096    precision@20: 0.0174    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 2 training [time: 38.15s, train loss: 191909.8869]
+RAM:1721.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0370    ndcg@20: 0.0303    map@20: 0.0096    precision@20: 0.0171    
+epoch 3 training [time: 38.02s, train loss: 158199.5392]
+RAM:1758.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0372    ndcg@20: 0.0306    map@20: 0.0098    precision@20: 0.0171    
+epoch 4 training [time: 38.06s, train loss: 140345.5831]
+RAM:1758.4MB | CPU:10.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0385    ndcg@20: 0.0315    map@20: 0.0100    precision@20: 0.0177    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 5 training [time: 38.08s, train loss: 127449.8038]
+RAM:1780.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0387    ndcg@20: 0.0316    map@20: 0.0100    precision@20: 0.0178    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 6 training [time: 38.14s, train loss: 117904.8740]
+RAM:1730.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0387    ndcg@20: 0.0318    map@20: 0.0101    precision@20: 0.0179    
+epoch 7 training [time: 38.05s, train loss: 109680.1180]
+RAM:1750.0MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0388    ndcg@20: 0.0317    map@20: 0.0099    precision@20: 0.0179    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 8 training [time: 38.19s, train loss: 102828.1469]
+RAM:1767.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0402    ndcg@20: 0.0329    map@20: 0.0105    precision@20: 0.0184    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 9 training [time: 38.15s, train loss: 97699.2305]
+RAM:1767.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0412    ndcg@20: 0.0336    map@20: 0.0107    precision@20: 0.0187    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 10 training [time: 38.41s, train loss: 92690.8182]
+RAM:1720.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0418    ndcg@20: 0.0339    map@20: 0.0107    precision@20: 0.0191    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 11 training [time: 38.48s, train loss: 87890.8981]
+RAM:1758.4MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0420    ndcg@20: 0.0341    map@20: 0.0108    precision@20: 0.0190    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 12 training [time: 38.55s, train loss: 84059.7140]
+RAM:1730.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0427    ndcg@20: 0.0344    map@20: 0.0109    precision@20: 0.0193    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 13 training [time: 38.28s, train loss: 80617.6674]
+RAM:1782.1MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0428    ndcg@20: 0.0346    map@20: 0.0109    precision@20: 0.0194    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 14 training [time: 38.41s, train loss: 77073.5252]
+RAM:1739.1MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0432    ndcg@20: 0.0350    map@20: 0.0110    precision@20: 0.0195    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 15 training [time: 38.28s, train loss: 74062.2818]
+RAM:1791.0MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0435    ndcg@20: 0.0352    map@20: 0.0111    precision@20: 0.0198    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 16 training [time: 38.29s, train loss: 71399.8743]
+RAM:1731.3MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0441    ndcg@20: 0.0354    map@20: 0.0112    precision@20: 0.0199    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 17 training [time: 38.23s, train loss: 68442.0100]
+RAM:1779.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0446    ndcg@20: 0.0362    map@20: 0.0115    precision@20: 0.0201    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 18 training [time: 38.19s, train loss: 66461.2444]
+RAM:1730.3MB | CPU:7.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0444    ndcg@20: 0.0361    map@20: 0.0115    precision@20: 0.0201    
+epoch 19 training [time: 38.06s, train loss: 63424.7849]
+RAM:1749.0MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0447    ndcg@20: 0.0362    map@20: 0.0115    precision@20: 0.0202    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 20 training [time: 38.14s, train loss: 61723.4804]
+RAM:1720.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0444    ndcg@20: 0.0362    map@20: 0.0116    precision@20: 0.0200    
+epoch 21 training [time: 38.16s, train loss: 58728.7979]
+RAM:1758.5MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0450    ndcg@20: 0.0369    map@20: 0.0119    precision@20: 0.0203    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 22 training [time: 38.18s, train loss: 57200.5849]
+RAM:1730.3MB | CPU:9.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0461    ndcg@20: 0.0376    map@20: 0.0120    precision@20: 0.0207    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 23 training [time: 38.21s, train loss: 54893.8232]
+RAM:1779.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0459    ndcg@20: 0.0372    map@20: 0.0119    precision@20: 0.0206    
+epoch 24 training [time: 38.11s, train loss: 53260.1894]
+RAM:1730.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0463    ndcg@20: 0.0374    map@20: 0.0120    precision@20: 0.0207    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 25 training [time: 38.16s, train loss: 51436.6580]
+RAM:1766.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0465    ndcg@20: 0.0376    map@20: 0.0120    precision@20: 0.0209    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 26 training [time: 38.25s, train loss: 50045.0444]
+RAM:1786.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0470    ndcg@20: 0.0376    map@20: 0.0119    precision@20: 0.0211    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 27 training [time: 38.19s, train loss: 48165.3375]
+RAM:1786.7MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0472    ndcg@20: 0.0381    map@20: 0.0121    precision@20: 0.0212    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 28 training [time: 38.18s, train loss: 46640.1569]
+RAM:1720.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0473    ndcg@20: 0.0381    map@20: 0.0121    precision@20: 0.0213    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 29 training [time: 38.09s, train loss: 45202.0413]
+RAM:1758.5MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0474    ndcg@20: 0.0382    map@20: 0.0121    precision@20: 0.0213    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 30 training [time: 38.14s, train loss: 43918.9771]
+RAM:1795.0MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0477    ndcg@20: 0.0381    map@20: 0.0120    precision@20: 0.0213    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 31 training [time: 38.13s, train loss: 42315.2569]
+RAM:1730.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0477    ndcg@20: 0.0385    map@20: 0.0123    precision@20: 0.0215    
+epoch 32 training [time: 38.27s, train loss: 41087.8211]
+RAM:1749.0MB | CPU:11.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0489    ndcg@20: 0.0394    map@20: 0.0125    precision@20: 0.0220    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 33 training [time: 38.20s, train loss: 39865.2453]
+RAM:1767.3MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0488    ndcg@20: 0.0395    map@20: 0.0127    precision@20: 0.0220    
+epoch 34 training [time: 38.14s, train loss: 38889.9215]
+RAM:1767.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0480    ndcg@20: 0.0390    map@20: 0.0125    precision@20: 0.0217    
+epoch 35 training [time: 38.20s, train loss: 37712.7007]
+RAM:1767.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0487    ndcg@20: 0.0390    map@20: 0.0123    precision@20: 0.0219    
+epoch 36 training [time: 38.33s, train loss: 36250.0551]
+RAM:1767.3MB | CPU:10.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0488    ndcg@20: 0.0390    map@20: 0.0123    precision@20: 0.0219    
+epoch 37 training [time: 38.19s, train loss: 35382.6001]
+RAM:1767.3MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0485    ndcg@20: 0.0391    map@20: 0.0124    precision@20: 0.0218    
+epoch 38 training [time: 38.11s, train loss: 34616.9439]
+RAM:1768.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0486    ndcg@20: 0.0389    map@20: 0.0123    precision@20: 0.0218    
+epoch 39 training [time: 38.11s, train loss: 33994.4614]
+RAM:1767.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0486    ndcg@20: 0.0390    map@20: 0.0124    precision@20: 0.0217    
+epoch 40 training [time: 38.15s, train loss: 32763.7547]
+RAM:1767.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0489    ndcg@20: 0.0394    map@20: 0.0126    precision@20: 0.0220    
+epoch 41 training [time: 38.10s, train loss: 31996.3026]
+RAM:1767.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0493    ndcg@20: 0.0398    map@20: 0.0127    precision@20: 0.0221    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 42 training [time: 38.18s, train loss: 31119.4007]
+RAM:1779.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0499    ndcg@20: 0.0402    map@20: 0.0128    precision@20: 0.0222    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 43 training [time: 38.13s, train loss: 30096.6841]
+RAM:1720.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0496    ndcg@20: 0.0396    map@20: 0.0125    precision@20: 0.0221    
+epoch 44 training [time: 38.01s, train loss: 29859.1907]
+RAM:1758.5MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0497    ndcg@20: 0.0397    map@20: 0.0126    precision@20: 0.0221    
+epoch 45 training [time: 38.05s, train loss: 29118.8454]
+RAM:1758.5MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0498    ndcg@20: 0.0397    map@20: 0.0125    precision@20: 0.0222    
+epoch 46 training [time: 38.09s, train loss: 28510.8290]
+RAM:1758.5MB | CPU:7.6% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0498    ndcg@20: 0.0401    map@20: 0.0128    precision@20: 0.0222    
+epoch 47 training [time: 38.03s, train loss: 27443.9495]
+RAM:1758.5MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0500    ndcg@20: 0.0401    map@20: 0.0128    precision@20: 0.0223    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 48 training [time: 38.24s, train loss: 26838.8279]
+RAM:1766.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0497    ndcg@20: 0.0398    map@20: 0.0126    precision@20: 0.0221    
+epoch 49 training [time: 38.10s, train loss: 26527.6308]
+RAM:1766.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0496    ndcg@20: 0.0398    map@20: 0.0126    precision@20: 0.0223    
+epoch 50 training [time: 38.14s, train loss: 26067.2818]
+RAM:1766.7MB | CPU:1.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0495    ndcg@20: 0.0395    map@20: 0.0125    precision@20: 0.0222    
+epoch 51 training [time: 38.07s, train loss: 25042.2308]
+RAM:1766.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0506    ndcg@20: 0.0404    map@20: 0.0129    precision@20: 0.0225    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 52 training [time: 38.14s, train loss: 24945.3414]
+RAM:1779.4MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0407    map@20: 0.0129    precision@20: 0.0227    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 53 training [time: 38.18s, train loss: 24113.3552]
+RAM:1720.9MB | CPU:10.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0508    ndcg@20: 0.0406    map@20: 0.0129    precision@20: 0.0226    
+epoch 54 training [time: 38.08s, train loss: 23624.8210]
+RAM:1758.5MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0505    ndcg@20: 0.0403    map@20: 0.0128    precision@20: 0.0225    
+epoch 55 training [time: 38.07s, train loss: 23374.8166]
+RAM:1758.5MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0508    ndcg@20: 0.0405    map@20: 0.0129    precision@20: 0.0226    
+epoch 56 training [time: 38.09s, train loss: 23301.4527]
+RAM:1758.5MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0413    map@20: 0.0133    precision@20: 0.0227    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 57 training [time: 38.25s, train loss: 22496.2783]
+RAM:1767.9MB | CPU:9.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0133    precision@20: 0.0227    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 58 training [time: 38.14s, train loss: 22188.5034]
+RAM:1720.9MB | CPU:1.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0409    map@20: 0.0130    precision@20: 0.0227    
+epoch 59 training [time: 38.11s, train loss: 21787.8865]
+RAM:1758.5MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0409    map@20: 0.0130    precision@20: 0.0228    
+epoch 60 training [time: 38.06s, train loss: 21440.7283]
+RAM:1758.5MB | CPU:12.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0507    ndcg@20: 0.0405    map@20: 0.0130    precision@20: 0.0224    
+epoch 61 training [time: 38.08s, train loss: 20942.4066]
+RAM:1759.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0409    map@20: 0.0131    precision@20: 0.0226    
+epoch 62 training [time: 38.11s, train loss: 20741.3591]
+RAM:1759.5MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0411    map@20: 0.0132    precision@20: 0.0227    
+epoch 63 training [time: 38.13s, train loss: 20629.9834]
+RAM:1759.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0410    map@20: 0.0131    precision@20: 0.0226    
+epoch 64 training [time: 38.30s, train loss: 19906.5776]
+RAM:1758.5MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0408    map@20: 0.0130    precision@20: 0.0227    
+epoch 65 training [time: 38.19s, train loss: 19647.6924]
+RAM:1758.5MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0409    map@20: 0.0130    precision@20: 0.0227    
+epoch 66 training [time: 38.13s, train loss: 19409.3601]
+RAM:1758.5MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0509    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0226    
+epoch 67 training [time: 38.05s, train loss: 19104.9018]
+RAM:1758.5MB | CPU:11.6% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0508    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0225    
+epoch 68 training [time: 38.03s, train loss: 18785.0559]
+RAM:1759.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0226    
+epoch 69 training [time: 38.07s, train loss: 18757.6244]
+RAM:1758.5MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0506    ndcg@20: 0.0406    map@20: 0.0131    precision@20: 0.0224    
+epoch 70 training [time: 38.06s, train loss: 18358.3011]
+RAM:1759.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0409    map@20: 0.0131    precision@20: 0.0226    
+epoch 71 training [time: 38.15s, train loss: 17974.1197]
+RAM:1758.5MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0132    precision@20: 0.0227    
+epoch 72 training [time: 38.17s, train loss: 17932.3729]
+RAM:1758.5MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0412    map@20: 0.0133    precision@20: 0.0227    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 73 training [time: 38.24s, train loss: 17759.4781]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0510    ndcg@20: 0.0409    map@20: 0.0132    precision@20: 0.0225    
+epoch 74 training [time: 38.21s, train loss: 17540.8833]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0412    map@20: 0.0133    precision@20: 0.0226    
+epoch 75 training [time: 38.09s, train loss: 17137.8755]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0415    map@20: 0.0134    precision@20: 0.0229    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 76 training [time: 38.14s, train loss: 17029.9771]
+RAM:1720.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0412    map@20: 0.0133    precision@20: 0.0227    
+epoch 77 training [time: 38.11s, train loss: 17018.7858]
+RAM:1759.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0226    
+epoch 78 training [time: 38.08s, train loss: 16621.8863]
+RAM:1758.5MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0417    map@20: 0.0136    precision@20: 0.0227    
+epoch 79 training [time: 38.10s, train loss: 16523.9787]
+RAM:1759.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0522    ndcg@20: 0.0421    map@20: 0.0137    precision@20: 0.0230    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 80 training [time: 38.15s, train loss: 16407.7286]
+RAM:1721.9MB | CPU:9.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0226    
+epoch 81 training [time: 38.13s, train loss: 15996.5145]
+RAM:1759.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0224    
+epoch 82 training [time: 38.10s, train loss: 15964.6271]
+RAM:1759.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 83 training [time: 38.17s, train loss: 15600.9432]
+RAM:1759.4MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0226    
+epoch 84 training [time: 38.12s, train loss: 15545.5166]
+RAM:1759.4MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0225    
+epoch 85 training [time: 38.11s, train loss: 15195.7017]
+RAM:1759.5MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0418    map@20: 0.0136    precision@20: 0.0228    
+epoch 86 training [time: 38.14s, train loss: 15306.3635]
+RAM:1759.4MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0523    ndcg@20: 0.0419    map@20: 0.0136    precision@20: 0.0228    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 87 training [time: 38.17s, train loss: 15323.1389]
+RAM:1766.7MB | CPU:8.4% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0419    map@20: 0.0136    precision@20: 0.0228    
+epoch 88 training [time: 38.13s, train loss: 14843.9736]
+RAM:1766.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0421    map@20: 0.0138    precision@20: 0.0228    
+epoch 89 training [time: 38.04s, train loss: 14832.8578]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0225    
+epoch 90 training [time: 38.06s, train loss: 14748.6513]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0509    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 91 training [time: 38.10s, train loss: 14586.6184]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0225    
+epoch 92 training [time: 38.07s, train loss: 14472.9175]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0411    map@20: 0.0133    precision@20: 0.0224    
+epoch 93 training [time: 38.03s, train loss: 14522.6216]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0414    map@20: 0.0134    precision@20: 0.0227    
+epoch 94 training [time: 38.12s, train loss: 14220.8714]
+RAM:1767.7MB | CPU:7.6% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0225    
+epoch 95 training [time: 38.05s, train loss: 14151.5117]
+RAM:1767.7MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0133    precision@20: 0.0226    
+epoch 96 training [time: 38.14s, train loss: 13980.6623]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0411    map@20: 0.0133    precision@20: 0.0225    
+epoch 97 training [time: 38.14s, train loss: 13846.0010]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0412    map@20: 0.0133    precision@20: 0.0225    
+epoch 98 training [time: 38.09s, train loss: 13627.7876]
+RAM:1767.7MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0414    map@20: 0.0134    precision@20: 0.0227    
+epoch 99 training [time: 38.05s, train loss: 13480.3967]
+RAM:1767.7MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0415    map@20: 0.0134    precision@20: 0.0227    
+epoch 100 training [time: 38.15s, train loss: 13634.2537]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0225    
+epoch 101 training [time: 38.03s, train loss: 13558.2256]
+RAM:1767.7MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0414    map@20: 0.0134    precision@20: 0.0226    
+epoch 102 training [time: 38.13s, train loss: 13426.0559]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0523    ndcg@20: 0.0417    map@20: 0.0135    precision@20: 0.0228    
+epoch 103 training [time: 38.13s, train loss: 13316.7744]
+RAM:1767.7MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0523    ndcg@20: 0.0415    map@20: 0.0134    precision@20: 0.0227    
+epoch 104 training [time: 38.09s, train loss: 13298.1954]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0224    
+epoch 105 training [time: 38.07s, train loss: 13080.4837]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0413    map@20: 0.0133    precision@20: 0.0225    
+epoch 106 training [time: 38.03s, train loss: 13105.3283]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0225    
+epoch 107 training [time: 38.01s, train loss: 12999.8909]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 108 training [time: 38.11s, train loss: 12920.1102]
+RAM:1767.7MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0224    
+epoch 109 training [time: 38.05s, train loss: 12542.6685]
+RAM:1767.7MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 110 training [time: 38.07s, train loss: 12701.6514]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0224    
+epoch 111 training [time: 38.10s, train loss: 12680.6366]
+RAM:1768.9MB | CPU:9.9% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0224    
+epoch 112 training [time: 38.05s, train loss: 12594.9244]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0225    
+epoch 113 training [time: 38.06s, train loss: 12559.9343]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0226    
+epoch 114 training [time: 38.16s, train loss: 12468.9083]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0226    
+epoch 115 training [time: 38.00s, train loss: 12404.2654]
+RAM:1767.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0225    
+epoch 116 training [time: 38.07s, train loss: 12324.3493]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0415    map@20: 0.0135    precision@20: 0.0226    
+epoch 117 training [time: 38.04s, train loss: 12239.7363]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0417    map@20: 0.0136    precision@20: 0.0226    
+epoch 118 training [time: 38.12s, train loss: 12120.1661]
+RAM:1768.9MB | CPU:9.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0417    map@20: 0.0137    precision@20: 0.0225    
+epoch 119 training [time: 38.00s, train loss: 11844.9761]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0417    map@20: 0.0137    precision@20: 0.0225    
+epoch 120 training [time: 38.06s, train loss: 12006.8583]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0418    map@20: 0.0136    precision@20: 0.0226    
+epoch 121 training [time: 38.07s, train loss: 12033.2664]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0417    map@20: 0.0137    precision@20: 0.0225    
+epoch 122 training [time: 38.04s, train loss: 11910.0650]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0417    map@20: 0.0136    precision@20: 0.0226    
+epoch 123 training [time: 38.10s, train loss: 11899.5671]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0417    map@20: 0.0136    precision@20: 0.0225    
+epoch 124 training [time: 38.09s, train loss: 11787.0591]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0226    
+epoch 125 training [time: 38.14s, train loss: 11712.8302]
+RAM:1767.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0225    
+epoch 126 training [time: 38.04s, train loss: 11618.9172]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0224    
+epoch 127 training [time: 38.08s, train loss: 11727.8748]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0224    
+epoch 128 training [time: 38.08s, train loss: 11424.4593]
+RAM:1768.9MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 129 training [time: 38.06s, train loss: 11343.1022]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 130 training [time: 38.03s, train loss: 11420.4086]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0225    
+epoch 131 training [time: 38.08s, train loss: 11334.3526]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0225    
+epoch 132 training [time: 38.08s, train loss: 11298.0334]
+RAM:1768.9MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0408    map@20: 0.0132    precision@20: 0.0224    
+epoch 133 training [time: 38.01s, train loss: 11352.3890]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0224    
+epoch 134 training [time: 38.04s, train loss: 11182.6581]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0224    
+epoch 135 training [time: 38.09s, train loss: 11254.2381]
+RAM:1768.9MB | CPU:7.6% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 136 training [time: 38.00s, train loss: 11048.3156]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0225    
+epoch 137 training [time: 38.09s, train loss: 11132.5220]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 138 training [time: 38.10s, train loss: 11148.5525]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0225    
+epoch 139 training [time: 38.08s, train loss: 11100.6488]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0225    
+epoch 140 training [time: 38.14s, train loss: 10993.8614]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0524    ndcg@20: 0.0416    map@20: 0.0135    precision@20: 0.0227    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 141 training [time: 38.20s, train loss: 11000.2385]
+RAM:1721.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0415    map@20: 0.0135    precision@20: 0.0226    
+epoch 142 training [time: 38.09s, train loss: 10941.0535]
+RAM:1759.5MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0526    ndcg@20: 0.0418    map@20: 0.0136    precision@20: 0.0228    
+██Saving current best: saved/LayerGCN-Apr-14-2026-07-21-32.pth
+epoch 143 training [time: 38.15s, train loss: 10805.2075]
+RAM:1731.3MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0415    map@20: 0.0135    precision@20: 0.0226    
+epoch 144 training [time: 38.04s, train loss: 10872.0158]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0417    map@20: 0.0137    precision@20: 0.0226    
+epoch 145 training [time: 38.11s, train loss: 10723.0029]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0225    
+epoch 146 training [time: 38.07s, train loss: 10807.4835]
+RAM:1768.9MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0225    
+epoch 147 training [time: 38.05s, train loss: 10654.5368]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0136    precision@20: 0.0224    
+epoch 148 training [time: 38.18s, train loss: 10570.9115]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 149 training [time: 38.07s, train loss: 10736.0239]
+RAM:1768.9MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 150 training [time: 38.09s, train loss: 10682.9463]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 151 training [time: 38.10s, train loss: 10590.6805]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0408    map@20: 0.0132    precision@20: 0.0222    
+epoch 152 training [time: 38.09s, train loss: 10589.8870]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 153 training [time: 38.02s, train loss: 10631.0312]
+RAM:1768.9MB | CPU:12.4% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0222    
+epoch 154 training [time: 38.03s, train loss: 10458.8913]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 155 training [time: 38.09s, train loss: 10524.8520]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 156 training [time: 38.01s, train loss: 10430.9337]
+RAM:1768.9MB | CPU:9.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0133    precision@20: 0.0224    
+epoch 157 training [time: 38.11s, train loss: 10554.6985]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 158 training [time: 38.08s, train loss: 10284.5646]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0222    
+epoch 159 training [time: 38.07s, train loss: 10429.6113]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0223    
+epoch 160 training [time: 38.05s, train loss: 10281.7939]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0510    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0222    
+epoch 161 training [time: 38.00s, train loss: 10179.3538]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 162 training [time: 38.14s, train loss: 10246.7575]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 163 training [time: 38.07s, train loss: 10166.5490]
+RAM:1768.9MB | CPU:9.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0225    
+epoch 164 training [time: 38.05s, train loss: 10128.9438]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0133    precision@20: 0.0225    
+epoch 165 training [time: 38.13s, train loss: 10230.6927]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0226    
+epoch 166 training [time: 38.02s, train loss: 10100.0713]
+RAM:1768.9MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0225    
+epoch 167 training [time: 38.04s, train loss: 10049.0599]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0224    
+epoch 168 training [time: 38.11s, train loss: 10052.5884]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0224    
+epoch 169 training [time: 38.05s, train loss: 10025.4560]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0407    map@20: 0.0132    precision@20: 0.0222    
+epoch 170 training [time: 38.06s, train loss: 9999.5156]
+RAM:1768.9MB | CPU:10.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0406    map@20: 0.0131    precision@20: 0.0223    
+epoch 171 training [time: 38.10s, train loss: 9945.1365]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0223    
+epoch 172 training [time: 38.06s, train loss: 10073.7686]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 173 training [time: 38.09s, train loss: 9995.6976]
+RAM:1768.9MB | CPU:9.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0222    
+epoch 174 training [time: 38.05s, train loss: 10061.8891]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0223    
+epoch 175 training [time: 38.05s, train loss: 9858.5016]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 176 training [time: 38.06s, train loss: 9907.6337]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0415    map@20: 0.0135    precision@20: 0.0224    
+epoch 177 training [time: 38.07s, train loss: 9869.1578]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0523    ndcg@20: 0.0416    map@20: 0.0135    precision@20: 0.0225    
+epoch 178 training [time: 38.10s, train loss: 9851.4189]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0223    
+epoch 179 training [time: 38.05s, train loss: 9801.7533]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 180 training [time: 38.12s, train loss: 9812.1172]
+RAM:1768.9MB | CPU:9.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 181 training [time: 38.04s, train loss: 9750.2908]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 182 training [time: 38.07s, train loss: 9734.7389]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0224    
+epoch 183 training [time: 38.07s, train loss: 9881.8349]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0223    
+epoch 184 training [time: 38.09s, train loss: 9709.2277]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0224    
+epoch 185 training [time: 38.09s, train loss: 9679.1150]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 186 training [time: 38.10s, train loss: 9609.3192]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0223    
+epoch 187 training [time: 38.10s, train loss: 9683.4519]
+RAM:1768.9MB | CPU:10.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 188 training [time: 38.08s, train loss: 9557.5450]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0223    
+epoch 189 training [time: 38.11s, train loss: 9608.9518]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0223    
+epoch 190 training [time: 38.12s, train loss: 9634.4684]
+RAM:1768.9MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 191 training [time: 38.16s, train loss: 9508.5162]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0411    map@20: 0.0133    precision@20: 0.0224    
+epoch 192 training [time: 38.17s, train loss: 9450.7217]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0224    
+epoch 193 training [time: 38.11s, train loss: 9569.3318]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0225    
+epoch 194 training [time: 38.11s, train loss: 9524.8555]
+RAM:1768.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0225    
+epoch 195 training [time: 38.13s, train loss: 9516.3818]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 196 training [time: 38.11s, train loss: 9508.3918]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0225    
+epoch 197 training [time: 38.11s, train loss: 9486.9056]
+RAM:1768.9MB | CPU:10.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0223    
+epoch 198 training [time: 38.16s, train loss: 9540.6832]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0223    
+epoch 199 training [time: 38.07s, train loss: 9272.9847]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0225    
+epoch 200 training [time: 38.09s, train loss: 9366.4498]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0224    
+epoch 201 training [time: 38.12s, train loss: 9442.7607]
+RAM:1768.9MB | CPU:11.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0408    map@20: 0.0132    precision@20: 0.0222    
+epoch 202 training [time: 38.08s, train loss: 9361.5108]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0223    
+epoch 203 training [time: 38.07s, train loss: 9374.8603]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0222    
+epoch 204 training [time: 38.08s, train loss: 9313.9677]
+RAM:1768.9MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 205 training [time: 38.03s, train loss: 9277.1184]
+RAM:1768.9MB | CPU:1.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0224    
+epoch 206 training [time: 38.12s, train loss: 9322.0665]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0224    
+epoch 207 training [time: 38.08s, train loss: 9293.9084]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0224    
+epoch 208 training [time: 38.07s, train loss: 9258.9427]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 209 training [time: 38.06s, train loss: 9321.8273]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 210 training [time: 38.09s, train loss: 9307.5143]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0225    
+epoch 211 training [time: 38.04s, train loss: 9275.4377]
+RAM:1768.9MB | CPU:10.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 212 training [time: 38.09s, train loss: 9140.1031]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 213 training [time: 38.07s, train loss: 9253.0425]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 214 training [time: 38.07s, train loss: 9231.8043]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0411    map@20: 0.0135    precision@20: 0.0222    
+epoch 215 training [time: 38.06s, train loss: 9230.3798]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0223    
+epoch 216 training [time: 38.05s, train loss: 9159.0670]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 217 training [time: 38.01s, train loss: 9150.9096]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 218 training [time: 38.11s, train loss: 9014.6241]
+RAM:1768.9MB | CPU:9.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0411    map@20: 0.0135    precision@20: 0.0222    
+epoch 219 training [time: 38.03s, train loss: 9178.6755]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0412    map@20: 0.0136    precision@20: 0.0221    
+epoch 220 training [time: 38.02s, train loss: 9141.5580]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0414    map@20: 0.0137    precision@20: 0.0223    
+epoch 221 training [time: 38.07s, train loss: 8989.4580]
+RAM:1768.9MB | CPU:10.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 222 training [time: 38.04s, train loss: 9092.6077]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0416    map@20: 0.0137    precision@20: 0.0225    
+epoch 223 training [time: 38.07s, train loss: 9066.7175]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 224 training [time: 38.08s, train loss: 9019.8984]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 225 training [time: 38.05s, train loss: 9117.0418]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 226 training [time: 38.07s, train loss: 9032.5947]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0510    ndcg@20: 0.0409    map@20: 0.0135    precision@20: 0.0220    
+epoch 227 training [time: 38.04s, train loss: 8990.9496]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0413    map@20: 0.0136    precision@20: 0.0222    
+epoch 228 training [time: 38.04s, train loss: 9013.1820]
+RAM:1768.9MB | CPU:7.6% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0221    
+epoch 229 training [time: 38.16s, train loss: 9062.5428]
+RAM:1768.9MB | CPU:3.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0222    
+epoch 230 training [time: 38.28s, train loss: 8970.9339]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 231 training [time: 38.44s, train loss: 9025.3155]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0222    
+epoch 232 training [time: 38.28s, train loss: 8929.6051]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0136    precision@20: 0.0223    
+epoch 233 training [time: 38.22s, train loss: 8929.1746]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0413    map@20: 0.0136    precision@20: 0.0223    
+epoch 234 training [time: 38.32s, train loss: 9033.4510]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0412    map@20: 0.0136    precision@20: 0.0222    
+epoch 235 training [time: 38.18s, train loss: 8940.5975]
+RAM:1768.9MB | CPU:10.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 236 training [time: 38.26s, train loss: 8942.2188]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0409    map@20: 0.0134    precision@20: 0.0222    
+epoch 237 training [time: 38.16s, train loss: 8850.1298]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0411    map@20: 0.0135    precision@20: 0.0222    
+epoch 238 training [time: 38.19s, train loss: 9002.1248]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0136    precision@20: 0.0223    
+epoch 239 training [time: 38.10s, train loss: 8774.3803]
+RAM:1768.9MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0415    map@20: 0.0137    precision@20: 0.0223    
+epoch 240 training [time: 38.10s, train loss: 8874.0706]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0523    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0225    
+epoch 241 training [time: 38.11s, train loss: 8950.2657]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0224    
+epoch 242 training [time: 38.18s, train loss: 8895.9697]
+RAM:1768.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0224    
+epoch 243 training [time: 38.18s, train loss: 8882.7961]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 244 training [time: 38.12s, train loss: 8942.6137]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0412    map@20: 0.0136    precision@20: 0.0222    
+epoch 245 training [time: 38.21s, train loss: 8828.8250]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0223    
+epoch 246 training [time: 38.21s, train loss: 8810.2448]
+RAM:1768.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0223    
+epoch 247 training [time: 38.15s, train loss: 8826.3019]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0522    ndcg@20: 0.0416    map@20: 0.0137    precision@20: 0.0224    
+epoch 248 training [time: 38.14s, train loss: 8694.1348]
+RAM:1767.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0416    map@20: 0.0137    precision@20: 0.0224    
+epoch 249 training [time: 38.15s, train loss: 8771.8194]
+RAM:1768.9MB | CPU:10.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 250 training [time: 38.05s, train loss: 8845.9475]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0225    
+epoch 251 training [time: 38.10s, train loss: 8769.1457]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0522    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0225    
+epoch 252 training [time: 38.19s, train loss: 8767.8038]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 253 training [time: 38.15s, train loss: 8818.7948]
+RAM:1768.9MB | CPU:9.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 254 training [time: 38.11s, train loss: 8800.3465]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 255 training [time: 38.10s, train loss: 8776.3084]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0221    
+epoch 256 training [time: 38.07s, train loss: 8643.4713]
+RAM:1768.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0510    ndcg@20: 0.0408    map@20: 0.0134    precision@20: 0.0220    
+epoch 257 training [time: 38.14s, train loss: 8646.8759]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0407    map@20: 0.0133    precision@20: 0.0221    
+epoch 258 training [time: 38.05s, train loss: 8759.7668]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0221    
+epoch 259 training [time: 38.06s, train loss: 8740.7882]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0222    
+epoch 260 training [time: 38.02s, train loss: 8711.8563]
+RAM:1767.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0222    
+epoch 261 training [time: 38.01s, train loss: 8736.3736]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0404    map@20: 0.0131    precision@20: 0.0220    
+epoch 262 training [time: 38.06s, train loss: 8651.5854]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0222    
+epoch 263 training [time: 38.01s, train loss: 8688.4124]
+RAM:1767.9MB | CPU:9.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0407    map@20: 0.0132    precision@20: 0.0221    
+epoch 264 training [time: 38.09s, train loss: 8730.1168]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0406    map@20: 0.0132    precision@20: 0.0221    
+epoch 265 training [time: 38.02s, train loss: 8606.1965]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0510    ndcg@20: 0.0407    map@20: 0.0133    precision@20: 0.0220    
+epoch 266 training [time: 38.03s, train loss: 8669.0229]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0509    ndcg@20: 0.0406    map@20: 0.0133    precision@20: 0.0219    
+epoch 267 training [time: 38.10s, train loss: 8620.9032]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0407    map@20: 0.0133    precision@20: 0.0221    
+epoch 268 training [time: 38.09s, train loss: 8600.5400]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0222    
+epoch 269 training [time: 38.11s, train loss: 8616.1368]
+RAM:1768.9MB | CPU:3.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 270 training [time: 38.12s, train loss: 8617.9577]
+RAM:1768.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0522    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0225    
+epoch 271 training [time: 38.06s, train loss: 8601.2906]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0223    
+epoch 272 training [time: 38.07s, train loss: 8449.5613]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0223    
+epoch 273 training [time: 38.10s, train loss: 8663.8161]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 274 training [time: 38.08s, train loss: 8601.3771]
+RAM:1768.9MB | CPU:1.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0136    precision@20: 0.0223    
+epoch 275 training [time: 38.01s, train loss: 8588.9656]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0224    
+epoch 276 training [time: 38.09s, train loss: 8655.6609]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0223    
+epoch 277 training [time: 38.11s, train loss: 8603.9681]
+RAM:1768.9MB | CPU:8.4% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 278 training [time: 38.09s, train loss: 8545.9923]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0409    map@20: 0.0134    precision@20: 0.0221    
+epoch 279 training [time: 38.10s, train loss: 8527.4924]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0221    
+epoch 280 training [time: 38.05s, train loss: 8483.7605]
+RAM:1768.9MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0223    
+epoch 281 training [time: 38.14s, train loss: 8506.9372]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0409    map@20: 0.0134    precision@20: 0.0221    
+epoch 282 training [time: 38.14s, train loss: 8422.9937]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0221    
+epoch 283 training [time: 38.07s, train loss: 8524.0333]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0408    map@20: 0.0134    precision@20: 0.0221    
+epoch 284 training [time: 38.13s, train loss: 8486.1321]
+RAM:1768.9MB | CPU:8.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 285 training [time: 38.09s, train loss: 8520.9015]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 286 training [time: 38.10s, train loss: 8462.2685]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 287 training [time: 38.05s, train loss: 8399.4842]
+RAM:1768.9MB | CPU:13.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0223    
+epoch 288 training [time: 38.03s, train loss: 8531.9981]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0407    map@20: 0.0133    precision@20: 0.0221    
+epoch 289 training [time: 38.12s, train loss: 8422.5398]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0510    ndcg@20: 0.0409    map@20: 0.0134    precision@20: 0.0221    
+epoch 290 training [time: 38.15s, train loss: 8436.8218]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0510    ndcg@20: 0.0409    map@20: 0.0134    precision@20: 0.0221    
+epoch 291 training [time: 38.06s, train loss: 8300.9042]
+RAM:1768.9MB | CPU:5.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 292 training [time: 38.07s, train loss: 8421.2934]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 293 training [time: 38.16s, train loss: 8388.6205]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 294 training [time: 38.09s, train loss: 8474.3338]
+RAM:1768.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0222    
+epoch 295 training [time: 38.07s, train loss: 8437.1905]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0509    ndcg@20: 0.0408    map@20: 0.0134    precision@20: 0.0221    
+epoch 296 training [time: 38.08s, train loss: 8361.8594]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 297 training [time: 38.11s, train loss: 8309.3870]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0412    map@20: 0.0136    precision@20: 0.0223    
+epoch 298 training [time: 38.09s, train loss: 8459.7871]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 299 training [time: 38.08s, train loss: 8395.8084]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0409    map@20: 0.0134    precision@20: 0.0222    
+epoch 300 training [time: 38.09s, train loss: 8434.3978]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0222    
+epoch 301 training [time: 38.03s, train loss: 8350.1487]
+RAM:1768.9MB | CPU:9.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0409    map@20: 0.0134    precision@20: 0.0221    
+epoch 302 training [time: 38.04s, train loss: 8337.4332]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0222    
+epoch 303 training [time: 38.02s, train loss: 8428.4730]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0407    map@20: 0.0132    precision@20: 0.0221    
+epoch 304 training [time: 38.09s, train loss: 8319.9811]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0407    map@20: 0.0132    precision@20: 0.0221    
+epoch 305 training [time: 38.04s, train loss: 8394.4740]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0408    map@20: 0.0132    precision@20: 0.0222    
+epoch 306 training [time: 38.03s, train loss: 8374.6240]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0407    map@20: 0.0132    precision@20: 0.0222    
+epoch 307 training [time: 38.09s, train loss: 8313.8720]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0407    map@20: 0.0132    precision@20: 0.0222    
+epoch 308 training [time: 38.09s, train loss: 8301.4435]
+RAM:1768.9MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0509    ndcg@20: 0.0407    map@20: 0.0132    precision@20: 0.0221    
+epoch 309 training [time: 37.99s, train loss: 8353.8613]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 310 training [time: 38.08s, train loss: 8277.7383]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0222    
+epoch 311 training [time: 38.06s, train loss: 8323.7696]
+RAM:1768.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 312 training [time: 38.13s, train loss: 8321.9642]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 313 training [time: 38.13s, train loss: 8264.0185]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 314 training [time: 38.13s, train loss: 8266.4523]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0409    map@20: 0.0134    precision@20: 0.0221    
+epoch 315 training [time: 38.06s, train loss: 8175.7292]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0222    
+epoch 316 training [time: 38.09s, train loss: 8300.6498]
+RAM:1767.9MB | CPU:1.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0222    
+epoch 317 training [time: 38.08s, train loss: 8404.9773]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 318 training [time: 38.07s, train loss: 8182.2290]
+RAM:1768.9MB | CPU:8.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0224    
+epoch 319 training [time: 38.10s, train loss: 8391.6017]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 320 training [time: 38.07s, train loss: 8358.5464]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0222    
+epoch 321 training [time: 38.12s, train loss: 8256.2048]
+RAM:1768.9MB | CPU:1.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 322 training [time: 38.08s, train loss: 8286.3832]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0225    
+epoch 323 training [time: 38.07s, train loss: 8205.9688]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0225    
+epoch 324 training [time: 38.04s, train loss: 8281.9747]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0226    
+epoch 325 training [time: 38.10s, train loss: 8156.1646]
+RAM:1768.9MB | CPU:7.6% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0225    
+epoch 326 training [time: 38.12s, train loss: 8255.3393]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 327 training [time: 38.06s, train loss: 8258.8400]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 328 training [time: 38.11s, train loss: 8227.2616]
+RAM:1767.9MB | CPU:10.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 329 training [time: 38.03s, train loss: 8211.9675]
+RAM:1767.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 330 training [time: 38.06s, train loss: 8136.3932]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 331 training [time: 38.06s, train loss: 8284.7415]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0224    
+epoch 332 training [time: 38.05s, train loss: 8184.7681]
+RAM:1768.9MB | CPU:5.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0224    
+epoch 333 training [time: 38.06s, train loss: 8229.0988]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0408    map@20: 0.0132    precision@20: 0.0222    
+epoch 334 training [time: 37.95s, train loss: 8185.0098]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0222    
+epoch 335 training [time: 38.03s, train loss: 8141.0266]
+RAM:1767.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0222    
+epoch 336 training [time: 38.10s, train loss: 8150.8451]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0222    
+epoch 337 training [time: 38.13s, train loss: 8131.4649]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0222    
+epoch 338 training [time: 38.00s, train loss: 8209.1175]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 339 training [time: 38.08s, train loss: 8212.4714]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 340 training [time: 38.03s, train loss: 8063.7810]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 341 training [time: 38.06s, train loss: 8174.8887]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 342 training [time: 38.15s, train loss: 8140.7634]
+RAM:1767.9MB | CPU:10.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 343 training [time: 38.03s, train loss: 8155.5548]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 344 training [time: 38.04s, train loss: 8205.1293]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 345 training [time: 38.08s, train loss: 8120.5807]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 346 training [time: 38.06s, train loss: 8162.2440]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 347 training [time: 38.09s, train loss: 8173.7909]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 348 training [time: 38.07s, train loss: 8082.5106]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0223    
+epoch 349 training [time: 38.01s, train loss: 8260.0824]
+RAM:1768.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 350 training [time: 38.05s, train loss: 8102.8470]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0224    
+epoch 351 training [time: 38.06s, train loss: 8168.8597]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0226    
+epoch 352 training [time: 38.08s, train loss: 8160.5334]
+RAM:1768.9MB | CPU:10.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0226    
+epoch 353 training [time: 38.09s, train loss: 8128.3107]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0411    map@20: 0.0133    precision@20: 0.0225    
+epoch 354 training [time: 38.17s, train loss: 8108.7201]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0133    precision@20: 0.0224    
+epoch 355 training [time: 38.11s, train loss: 7986.1058]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0225    
+epoch 356 training [time: 38.04s, train loss: 8155.0775]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 357 training [time: 38.09s, train loss: 8095.9706]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0226    
+epoch 358 training [time: 38.05s, train loss: 8133.7585]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0226    
+epoch 359 training [time: 38.06s, train loss: 8040.5025]
+RAM:1768.9MB | CPU:9.9% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0225    
+epoch 360 training [time: 38.07s, train loss: 8031.6824]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0522    ndcg@20: 0.0419    map@20: 0.0138    precision@20: 0.0226    
+epoch 361 training [time: 38.04s, train loss: 8199.5972]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0225    
+epoch 362 training [time: 38.07s, train loss: 8204.9693]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0225    
+epoch 363 training [time: 38.05s, train loss: 7959.6512]
+RAM:1768.9MB | CPU:3.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0415    map@20: 0.0135    precision@20: 0.0225    
+epoch 364 training [time: 38.06s, train loss: 7987.5426]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0223    
+epoch 365 training [time: 38.07s, train loss: 8005.6144]
+RAM:1767.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0411    map@20: 0.0135    precision@20: 0.0221    
+epoch 366 training [time: 38.05s, train loss: 8030.9728]
+RAM:1768.9MB | CPU:9.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0136    precision@20: 0.0223    
+epoch 367 training [time: 38.05s, train loss: 8020.3147]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0415    map@20: 0.0137    precision@20: 0.0224    
+epoch 368 training [time: 38.05s, train loss: 8013.8543]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0136    precision@20: 0.0223    
+epoch 369 training [time: 38.11s, train loss: 8029.7499]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0512    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 370 training [time: 38.06s, train loss: 7983.1625]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 371 training [time: 38.11s, train loss: 8005.5645]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0510    ndcg@20: 0.0407    map@20: 0.0133    precision@20: 0.0221    
+epoch 372 training [time: 38.14s, train loss: 8050.9098]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0511    ndcg@20: 0.0409    map@20: 0.0134    precision@20: 0.0222    
+epoch 373 training [time: 38.17s, train loss: 8005.5390]
+RAM:1768.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0510    ndcg@20: 0.0409    map@20: 0.0133    precision@20: 0.0222    
+epoch 374 training [time: 38.15s, train loss: 7998.7478]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0508    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0221    
+epoch 375 training [time: 38.15s, train loss: 7893.4253]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 376 training [time: 38.06s, train loss: 7967.2756]
+RAM:1768.9MB | CPU:10.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 377 training [time: 38.10s, train loss: 8095.6537]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0411    map@20: 0.0133    precision@20: 0.0224    
+epoch 378 training [time: 37.95s, train loss: 8031.2201]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0224    
+epoch 379 training [time: 38.06s, train loss: 8074.2946]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0224    
+epoch 380 training [time: 38.10s, train loss: 7939.7881]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 381 training [time: 38.12s, train loss: 7916.6651]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 382 training [time: 38.10s, train loss: 7998.7145]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0224    
+epoch 383 training [time: 38.08s, train loss: 7997.7821]
+RAM:1768.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 384 training [time: 38.09s, train loss: 8009.5600]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0223    
+epoch 385 training [time: 38.02s, train loss: 7911.2201]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 386 training [time: 38.15s, train loss: 7964.7965]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0415    map@20: 0.0137    precision@20: 0.0224    
+epoch 387 training [time: 38.09s, train loss: 7924.8943]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0223    
+epoch 388 training [time: 38.01s, train loss: 8028.4665]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0225    
+epoch 389 training [time: 38.12s, train loss: 8022.6200]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0225    
+epoch 390 training [time: 38.12s, train loss: 8007.5505]
+RAM:1768.9MB | CPU:10.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 391 training [time: 38.08s, train loss: 7968.7219]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 392 training [time: 38.06s, train loss: 7947.7057]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0223    
+epoch 393 training [time: 38.02s, train loss: 7853.8418]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 394 training [time: 38.07s, train loss: 7843.2227]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 395 training [time: 38.09s, train loss: 7991.0903]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0413    map@20: 0.0136    precision@20: 0.0223    
+epoch 396 training [time: 38.12s, train loss: 7973.0613]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 397 training [time: 37.93s, train loss: 7966.6313]
+RAM:1767.9MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 398 training [time: 38.02s, train loss: 8004.2195]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0413    map@20: 0.0136    precision@20: 0.0223    
+epoch 399 training [time: 38.01s, train loss: 7950.0820]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0416    map@20: 0.0137    precision@20: 0.0224    
+epoch 400 training [time: 38.10s, train loss: 7941.9194]
+RAM:1768.9MB | CPU:9.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0417    map@20: 0.0138    precision@20: 0.0225    
+epoch 401 training [time: 38.09s, train loss: 7887.8471]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0224    
+epoch 402 training [time: 38.04s, train loss: 7873.8239]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0225    
+epoch 403 training [time: 38.07s, train loss: 8047.7286]
+RAM:1767.9MB | CPU:4.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0418    map@20: 0.0137    precision@20: 0.0225    
+epoch 404 training [time: 38.05s, train loss: 7947.7063]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0522    ndcg@20: 0.0418    map@20: 0.0137    precision@20: 0.0225    
+epoch 405 training [time: 38.03s, train loss: 7998.5961]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0522    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0226    
+epoch 406 training [time: 38.02s, train loss: 7874.8360]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0523    ndcg@20: 0.0417    map@20: 0.0136    precision@20: 0.0225    
+epoch 407 training [time: 38.09s, train loss: 7919.8370]
+RAM:1767.9MB | CPU:7.6% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0224    
+epoch 408 training [time: 38.10s, train loss: 7870.9311]
+RAM:1768.9MB | CPU:1.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0225    
+epoch 409 training [time: 38.05s, train loss: 7821.5477]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0225    
+epoch 410 training [time: 38.11s, train loss: 7895.4925]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0225    
+epoch 411 training [time: 38.09s, train loss: 7917.2496]
+RAM:1767.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0224    
+epoch 412 training [time: 38.11s, train loss: 7892.1242]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0224    
+epoch 413 training [time: 38.06s, train loss: 7880.0926]
+RAM:1768.9MB | CPU:4.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0223    
+epoch 414 training [time: 38.05s, train loss: 7896.6107]
+RAM:1767.9MB | CPU:11.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0223    
+epoch 415 training [time: 38.10s, train loss: 7873.4874]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0222    
+epoch 416 training [time: 38.14s, train loss: 7884.5187]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0223    
+epoch 417 training [time: 38.08s, train loss: 7914.9635]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0222    
+epoch 418 training [time: 38.20s, train loss: 7886.7780]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0222    
+epoch 419 training [time: 38.09s, train loss: 7871.1873]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0222    
+epoch 420 training [time: 38.05s, train loss: 7922.0095]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0222    
+epoch 421 training [time: 38.07s, train loss: 7820.8423]
+RAM:1768.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0222    
+epoch 422 training [time: 38.08s, train loss: 7916.9968]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0223    
+epoch 423 training [time: 38.08s, train loss: 7838.5799]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0223    
+epoch 424 training [time: 38.12s, train loss: 7897.7624]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0223    
+epoch 425 training [time: 38.07s, train loss: 7863.9102]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 426 training [time: 38.04s, train loss: 7847.6155]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0222    
+epoch 427 training [time: 38.08s, train loss: 7875.6531]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 428 training [time: 38.08s, train loss: 7894.5593]
+RAM:1768.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0223    
+epoch 429 training [time: 38.09s, train loss: 7861.3972]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0522    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0224    
+epoch 430 training [time: 38.15s, train loss: 7837.8778]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0523    ndcg@20: 0.0415    map@20: 0.0135    precision@20: 0.0226    
+epoch 431 training [time: 38.09s, train loss: 7825.0996]
+RAM:1768.9MB | CPU:14.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0524    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0226    
+epoch 432 training [time: 38.10s, train loss: 7861.1299]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0417    map@20: 0.0137    precision@20: 0.0225    
+epoch 433 training [time: 38.10s, train loss: 7738.2297]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0523    ndcg@20: 0.0418    map@20: 0.0137    precision@20: 0.0225    
+epoch 434 training [time: 38.06s, train loss: 7833.3246]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0523    ndcg@20: 0.0418    map@20: 0.0138    precision@20: 0.0225    
+epoch 435 training [time: 38.09s, train loss: 7819.7395]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0224    
+epoch 436 training [time: 38.05s, train loss: 7827.3691]
+RAM:1768.9MB | CPU:3.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0522    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0224    
+epoch 437 training [time: 38.08s, train loss: 7898.6937]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0522    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0224    
+epoch 438 training [time: 38.07s, train loss: 7785.1717]
+RAM:1768.9MB | CPU:9.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0522    ndcg@20: 0.0413    map@20: 0.0134    precision@20: 0.0224    
+epoch 439 training [time: 38.09s, train loss: 7781.6671]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 440 training [time: 38.04s, train loss: 7729.8564]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0223    
+epoch 441 training [time: 38.08s, train loss: 7836.6876]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0224    
+epoch 442 training [time: 38.13s, train loss: 7901.8702]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 443 training [time: 38.08s, train loss: 7774.9156]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0223    
+epoch 444 training [time: 38.13s, train loss: 7834.7683]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 445 training [time: 38.14s, train loss: 7743.9488]
+RAM:1768.9MB | CPU:10.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 446 training [time: 38.07s, train loss: 7832.0314]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0223    
+epoch 447 training [time: 38.05s, train loss: 7818.1257]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 448 training [time: 38.04s, train loss: 7846.7441]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0224    
+epoch 449 training [time: 38.03s, train loss: 7794.4168]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0223    
+epoch 450 training [time: 38.03s, train loss: 7812.2451]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0224    
+epoch 451 training [time: 38.04s, train loss: 7748.1992]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0223    
+epoch 452 training [time: 38.02s, train loss: 7800.8130]
+RAM:1768.9MB | CPU:9.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0410    map@20: 0.0133    precision@20: 0.0222    
+epoch 453 training [time: 38.07s, train loss: 7834.5690]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0412    map@20: 0.0134    precision@20: 0.0223    
+epoch 454 training [time: 38.10s, train loss: 7840.0898]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0222    
+epoch 455 training [time: 38.04s, train loss: 7748.1226]
+RAM:1768.9MB | CPU:10.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0221    
+epoch 456 training [time: 38.38s, train loss: 7838.1262]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0510    ndcg@20: 0.0410    map@20: 0.0135    precision@20: 0.0221    
+epoch 457 training [time: 38.38s, train loss: 7753.0211]
+RAM:1767.9MB | CPU:1.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0509    ndcg@20: 0.0408    map@20: 0.0133    precision@20: 0.0221    
+epoch 458 training [time: 38.37s, train loss: 7710.2292]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0136    precision@20: 0.0223    
+epoch 459 training [time: 38.34s, train loss: 7783.1163]
+RAM:1768.9MB | CPU:10.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 460 training [time: 38.18s, train loss: 7770.1432]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 461 training [time: 38.22s, train loss: 7735.9870]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0223    
+epoch 462 training [time: 38.27s, train loss: 7743.6486]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 463 training [time: 38.30s, train loss: 7806.6197]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0224    
+epoch 464 training [time: 38.23s, train loss: 7728.1739]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 465 training [time: 38.06s, train loss: 7782.1001]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 466 training [time: 38.20s, train loss: 7696.0515]
+RAM:1766.9MB | CPU:9.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 467 training [time: 38.10s, train loss: 7713.2340]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0225    
+epoch 468 training [time: 38.13s, train loss: 7751.1676]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0522    ndcg@20: 0.0416    map@20: 0.0136    precision@20: 0.0225    
+epoch 469 training [time: 38.10s, train loss: 7718.8414]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 470 training [time: 38.07s, train loss: 7710.6067]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0414    map@20: 0.0136    precision@20: 0.0224    
+epoch 471 training [time: 38.22s, train loss: 7659.4155]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0224    
+epoch 472 training [time: 38.17s, train loss: 7776.8374]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0519    ndcg@20: 0.0416    map@20: 0.0137    precision@20: 0.0224    
+epoch 473 training [time: 38.17s, train loss: 7638.2911]
+RAM:1768.9MB | CPU:10.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0417    map@20: 0.0138    precision@20: 0.0224    
+epoch 474 training [time: 38.14s, train loss: 7641.5376]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0415    map@20: 0.0136    precision@20: 0.0225    
+epoch 475 training [time: 38.14s, train loss: 7713.0918]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 476 training [time: 38.30s, train loss: 7632.5138]
+RAM:1767.9MB | CPU:6.6% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0518    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 477 training [time: 38.19s, train loss: 7682.7312]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0222    
+epoch 478 training [time: 38.12s, train loss: 7697.7234]
+RAM:1767.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0413    map@20: 0.0136    precision@20: 0.0223    
+epoch 479 training [time: 38.06s, train loss: 7681.6977]
+RAM:1767.9MB | CPU:3.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0523    ndcg@20: 0.0415    map@20: 0.0135    precision@20: 0.0225    
+epoch 480 training [time: 38.10s, train loss: 7762.4351]
+RAM:1767.9MB | CPU:9.1% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0520    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0224    
+epoch 481 training [time: 38.13s, train loss: 7740.2064]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0416    map@20: 0.0137    precision@20: 0.0224    
+epoch 482 training [time: 38.15s, train loss: 7785.3948]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0412    map@20: 0.0135    precision@20: 0.0223    
+epoch 483 training [time: 38.11s, train loss: 7635.8469]
+RAM:1767.9MB | CPU:9.2% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0521    ndcg@20: 0.0414    map@20: 0.0135    precision@20: 0.0225    
+epoch 484 training [time: 38.04s, train loss: 7691.9904]
+RAM:1767.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0411    map@20: 0.0134    precision@20: 0.0223    
+epoch 485 training [time: 38.03s, train loss: 7664.0848]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0410    map@20: 0.0135    precision@20: 0.0221    
+epoch 486 training [time: 38.22s, train loss: 7717.3896]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0412    map@20: 0.0136    precision@20: 0.0222    
+epoch 487 training [time: 38.10s, train loss: 7692.8119]
+RAM:1768.9MB | CPU:13.9% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 488 training [time: 38.08s, train loss: 7703.5922]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0413    map@20: 0.0135    precision@20: 0.0223    
+epoch 489 training [time: 38.10s, train loss: 7702.0167]
+RAM:1767.9MB | CPU:1.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0412    map@20: 0.0136    precision@20: 0.0222    
+epoch 490 training [time: 38.12s, train loss: 7816.3324]
+RAM:1767.9MB | CPU:8.3% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0414    map@20: 0.0137    precision@20: 0.0222    
+epoch 491 training [time: 38.13s, train loss: 7722.7056]
+RAM:1767.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0412    map@20: 0.0136    precision@20: 0.0222    
+epoch 492 training [time: 38.14s, train loss: 7764.6083]
+RAM:1768.9MB | CPU:2.5% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0411    map@20: 0.0135    precision@20: 0.0221    
+epoch 493 training [time: 38.08s, train loss: 7696.0702]
+RAM:1768.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0514    ndcg@20: 0.0412    map@20: 0.0136    precision@20: 0.0221    
+epoch 494 training [time: 38.11s, train loss: 7759.2340]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0513    ndcg@20: 0.0409    map@20: 0.0134    precision@20: 0.0221    
+epoch 495 training [time: 38.11s, train loss: 7594.9457]
+RAM:1766.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 496 training [time: 38.11s, train loss: 7733.1060]
+RAM:1768.9MB | CPU:0.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0411    map@20: 0.0135    precision@20: 0.0222    
+epoch 497 training [time: 38.09s, train loss: 7749.1150]
+RAM:1768.9MB | CPU:10.0% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0515    ndcg@20: 0.0411    map@20: 0.0135    precision@20: 0.0221    
+epoch 498 training [time: 38.06s, train loss: 7586.6625]
+RAM:1769.9MB | CPU:0.8% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0517    ndcg@20: 0.0410    map@20: 0.0134    precision@20: 0.0222    
+epoch 499 training [time: 38.05s, train loss: 7679.1829]
+RAM:1769.9MB | CPU:1.7% | VRAM:182.3MB/22563.1MB
+test result: 
+recall@20: 0.0516    ndcg@20: 0.0411    map@20: 0.0135    precision@20: 0.0223    
+Total Training Time: 6h 21m 59s (22919.66 seconds)
+Loading model structure and parameters from saved/LayerGCN-Apr-14-2026-07-21-32.pth
+best valid result: recall@20: 0.0000    ndcg@20: 0.0000    map@20: 0.0000    precision@20: 0.0000    
+test result: recall@20: 0.0526    ndcg@20: 0.0418    map@20: 0.0136    precision@20: 0.0228    
+████Current BEST████:
+Parameters: ['seed', 'n_layers', 'dropout', 'reg_weight']=(2026, 4, 0.0, 0.0001),
+Valid: recall@20: 0.0000    ndcg@20: 0.0000    map@20: 0.0000    precision@20: 0.0000    ,
+Test: recall@20: 0.0526    ndcg@20: 0.0418    map@20: 0.0136    precision@20: 0.0228    
