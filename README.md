@@ -26,6 +26,14 @@ Our fork focuses on:
 
 ---
 
+## 📦 Important Experiments & Visualize folders
+
+- `exp` folder store our experiments notebooks file
+
+- `plot` folder store our visualization and extracted copied logs from the notebooks files
+
+---
+
 ## 🛠️ Key Modifications in This Fork
 
 To make the framework simpler and more suitable for experimentation, we made the following changes:
@@ -33,8 +41,47 @@ To make the framework simpler and more suitable for experimentation, we made the
 ### 1. Model Cleanup
 - Removed all `<model_name>.py` files except `layergcn.py`
 
-### 2. Custom Data Loading (`quick_start.py`)
-- Added a custom function & update some orignal function to match the dataset structure
+### 2. 0.0 values for validation  (`quick_start.py`)
+- Since we have configured the the code structure that compatible for the training and testing data only. All of the values from validation output will be 0s
+
+- Example : 
+
+```
+Valid: recall@20: 0.0000    ndcg@20: 0.0000    map@20: 0.0000    precision@20: 00000
+Test: recall@20: 0.1541    ndcg@20: 0.1231    map@20: 0.0591    precision@20: 0.0454 
+```
+
+### 3. Modify logic in `dataset.py` file
+
+- The original strictly require a single dataset file named `(dataset_name).inter`. So it will crash if it was not found. Therefore, we have added the method `_load_user_list_format`, which parse lines formatted as user_id item_id1 item_id2, ... , and flattens them into a proper DataFrame of (user_id, item_id) pairs. It set a flag `self.is_pre_split` = True when using this route
+
+- Update the `split` by ignoring the chronological splitting logic to use the pre-split text files. The 
+
+    - Original: Handled splitting purely by computing timestamps and slicing the single dataframe chronologically to train, valid, test
+
+    - Modified: We added a blockage at the begining of the `split` function. We check if the loaded data is `train.txt`, then we will maps the string IDs to integers Ids across both the train and test dataframes. It defines the `train_ds` and `test_ds` using `train.txt` and `test.txt`
+
+- Ignore K-core collaborative filtering is a must because our already-processed have been applied k-core filtering already. Applying it again is not necessary and could potentially reduce the quality of the dataset.
+
+### 4. Modify logic in `layergcn.py` file
+
+- update the `embeddings_layers`.
+
+    - Original : The `embeddings_layers = []` which is empty. This means the intial ego embedding at layer 0 were never added to the final stack before summiing.
+
+    - Modified : We initialized the list with the ego embeddings `embeddings_layers = [ego_embeddings]` . Now when the model computes `ui_all_embeddings = torch.sum(...)`, it include the initial features along with the propagated features from the graph layers
+
+- Fix `get_norm_adj_mat` for scipy compatibility. The original used the `A._update(data_dict)` which is a deprecated implementation, we change this by modifying it to `dict.update(A, data_dict)`
+
+### 5. Modify logic in `trainer.py` file
+
+- Add system resource monitoring : we import `psutil` lib to log out the RAM and VRAM metrics
+
+- Early stopping logic change to use Test Data
+
+    - Original code evaluated the `valid_score` against `best_valid_score` to determine if the model had stopped improving
+
+    - We modified this by commented out the validation early stopping check, and extract the `test_score = test_result[self.valid_metric]` and pass it to the `early_stopping` function
 
 ---
 
@@ -101,6 +148,6 @@ This fork was created for:
 
 ## 🙏 Acknowledgements
 
-We sincerely thank the authors of the original LightGCN paper and repository for making their work publicly available.
+We sincerely thank the authors of the original LayerGCN paper and repository for making their work publicly available.
 
 Please consider citing the original paper when using this codebase.
