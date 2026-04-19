@@ -26,7 +26,7 @@ Our fork focuses on:
 
 ---
 
-## 📦 Important Experiments & Visualize folders
+## 📦 Important Task 3 Experiments & Visualize folders
 
 - `exp` folder store our experiments notebooks file
 
